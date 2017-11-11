@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Martin Wind <mawi1988@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mawi12345/alex-control.git"
+  },
   "dependencies": {
     "commander": "^2.11.0",
     "cookie": "^0.3.1",
