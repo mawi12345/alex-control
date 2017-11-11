@@ -13,7 +13,7 @@ const collect = (val, memo) => {
 }
 
 program
-  .version('0.9.0')
+  .version('0.9.1')
   .option('-d, --device <name>', 'select a echo device', collect, [])
   .option('-c, --cookie <file>', 'alexa web cookie file')
   .arguments('<action> [args...]', 'the action to run')
@@ -33,7 +33,7 @@ program.on('--help', function(){
   console.log('    next             play next title');
   console.log('    previous         play previous title');
   console.log('    volume [level]   set volume level [0-100]');
-  console.log('    tunein [name]    playes tunein station');
+  console.log('    tunein [name]    plays tunein station');
   console.log('');
 });
 

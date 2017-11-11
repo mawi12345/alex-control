@@ -1,10 +1,9 @@
 {
   "name": "alex-control",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "main": "index.js",
-  "author": "mawi <mawi1988@gmail.com>",
+  "author": "Martin Wind <mawi1988@gmail.com>",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "commander": "^2.11.0",
     "cookie": "^0.3.1",
